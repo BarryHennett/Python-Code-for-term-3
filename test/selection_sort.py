@@ -9,6 +9,7 @@ def Selection_sort(arr, size):
                 min_idx = i
         
         (arr[step], arr[min_idx]) = (arr[min_idx], arr[step])
+    return arr
 
 data = [-2, 45, 0, 11, -9]
 size = len(data)

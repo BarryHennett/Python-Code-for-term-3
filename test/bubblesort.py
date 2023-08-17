@@ -7,6 +7,8 @@ def bubble_sort(arr):
             
             if arr[Borg] > arr[Borg+ 1]:
                 arr[Borg], arr[Borg +1] = arr[Borg + 1], arr[Borg]
+
+    return arr
                 
                 
          

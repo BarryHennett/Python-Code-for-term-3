@@ -10,6 +10,7 @@ def insertion_sort(arr):
             j-=1
         
         arr[j + 1] = key
+    return arr
 
 sample_array = [43, 65, 12, 87, 98, 56]
 print("Original array: ", sample_array)
